@@ -18,7 +18,7 @@ function Home() {
         <div className='w-full py-20 px-8 '>
           <div className='flex' style={divStyle}>
             <div className=' px-5 py-11'>
-              <Link className='font-semibold text-lg underline' to='/*/dashboard'>
+              <Link className='font-semibold text-lg underline' to='/dashboard'>
                 DashBoard
               </Link>
             </div>
@@ -35,6 +35,8 @@ function Home() {
               </Link>
             </div>
           </div>
+
+
         </div>
       </div>
     </>
