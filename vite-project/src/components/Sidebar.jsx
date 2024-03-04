@@ -67,13 +67,10 @@ Inventory</h1></Link>
           aria-labelledby="dropdown-button"
         >
           <div className="py-1" role="none">
-            <a
-              href="#"
-              className="block px-4 py-2 text-sm hover:text-gray-900"
-              role="menuitem"
-            >
-              Items
-            </a>
+          <Link to="/items" className="block px-4 py-2 text-sm hover:text-gray-900" role="menuitem">
+           Items
+         </Link>
+
             <a
               href="#"
               className="block px-4 py-2 text-sm  hover:text-blue-900"

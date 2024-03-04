@@ -1,7 +1,7 @@
 // Home.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { NavLink } from 'react-router-dom';
+
 
 const divStyle = {
   backgroundImage: 'url("https://pbs.twimg.com/profile_banners/14637048/1448631888/1500x500")',
@@ -18,7 +18,7 @@ function Home() {
         <div className='w-full py-20 px-8 '>
           <div className='flex' style={divStyle}>
             <div className=' px-5 py-11'>
-              <Link className='font-semibold text-lg underline' to='/dashboard'>
+              <Link className='font-semibold text-lg underline' to={"/dashboard"}>
                 DashBoard
               </Link>
             </div>

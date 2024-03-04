@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Home from './pages/Home';
-import Dashboard from './pages/Dashboard';
+import Items from './pages/Items';
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
 
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/dashboard' element={<Dashboard />} />
-          {/* Add more routes as needed */}
+           
+           <Route path='/items' element={<Items/>}/>
         </Routes>
       </BrowserRouter>
     </>
